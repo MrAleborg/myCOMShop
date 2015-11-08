@@ -1,0 +1,17 @@
+// myShopClient.idl : IDL source for myShopClient
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (myShopClient.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(90ACCDCB-D637-44B3-A27F-7654783995A0),
+	version(1.0)	
+]
+library myShopClientLib
+{
+	importlib("stdole2.tlb");
+};

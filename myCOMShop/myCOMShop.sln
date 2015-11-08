@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myCOMShop", "myCOMShop\myCOMShop.vcxproj", "{E7788B74-0A3F-479C-B99D-D991EF6ED604}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myCOMShopPS", "myCOMShop\myCOMShopPS.vcxproj", "{FC2F0BC1-ED9D-4562-85CE-938C12A62FB6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7788B74-0A3F-479C-B99D-D991EF6ED604} = {E7788B74-0A3F-479C-B99D-D991EF6ED604}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myShopClient", "myShopClient\myShopClient.vcxproj", "{F337F3C6-9305-45CC-B6B1-8CA99737FC21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7788B74-0A3F-479C-B99D-D991EF6ED604}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7788B74-0A3F-479C-B99D-D991EF6ED604}.Debug|Win32.Build.0 = Debug|Win32
+		{E7788B74-0A3F-479C-B99D-D991EF6ED604}.Release|Win32.ActiveCfg = Release|Win32
+		{E7788B74-0A3F-479C-B99D-D991EF6ED604}.Release|Win32.Build.0 = Release|Win32
+		{FC2F0BC1-ED9D-4562-85CE-938C12A62FB6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC2F0BC1-ED9D-4562-85CE-938C12A62FB6}.Release|Win32.ActiveCfg = Release|Win32
+		{F337F3C6-9305-45CC-B6B1-8CA99737FC21}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F337F3C6-9305-45CC-B6B1-8CA99737FC21}.Debug|Win32.Build.0 = Debug|Win32
+		{F337F3C6-9305-45CC-B6B1-8CA99737FC21}.Release|Win32.ActiveCfg = Release|Win32
+		{F337F3C6-9305-45CC-B6B1-8CA99737FC21}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

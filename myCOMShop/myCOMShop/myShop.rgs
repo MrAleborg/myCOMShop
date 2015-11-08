@@ -1,0 +1,26 @@
+HKCR
+{
+	myCOMShop.myShop.1 = s 'myShop Class'
+	{
+		CLSID = s '{D50D929A-BA0A-437B-9B39-E78B15B9CBCB}'
+	}
+	myCOMShop.myShop = s 'myShop Class'
+	{		
+		CurVer = s 'myCOMShop.myShop.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D50D929A-BA0A-437B-9B39-E78B15B9CBCB} = s 'myShop Class'
+		{
+			ProgID = s 'myCOMShop.myShop.1'
+			VersionIndependentProgID = s 'myCOMShop.myShop'
+			ForceRemove Programmable
+			LocalServer32 = s '%MODULE%'
+			{
+				val ServerExecutable = s '%MODULE_RAW%'
+			}
+			TypeLib = s '{B3B20CFB-EC74-46E8-9B39-B72A000DAD3E}'
+			Version = s '1.0'
+		}
+	}
+}
